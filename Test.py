@@ -1,1 +1,1 @@
-print('Paulastya\t'*100)
+print(0.1+0.2)
