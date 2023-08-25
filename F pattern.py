@@ -1,3 +1,7 @@
-m=[5,2,5,2,2]
-for i in m:
-    print('X'*i)
+k=1
+for i in range(1,5):
+    for j in range(i):
+        print(k,end=' ')
+        k+=1
+    print()
+    
