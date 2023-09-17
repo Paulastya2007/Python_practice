@@ -1,6 +1,6 @@
 def rec(x,s):
     if x>0:
-        s+=(x%10)**3
+        s+=(x%10)**len(str(a))
         x=x//10
         return rec(x,s)    
     else:
