@@ -1,7 +1,21 @@
-#Explicit type conversion
-icecream='25'   #fill in it will be in <str> form
-brownie='45'    #fill in it will be in <str> form
-price=icecream+brownie   #<str> concatenation
-print('Total price Rs.'+price)    #Total price Rs.2545
-price=int(icecream)+int(brownie)
-print('Total price Rs.'+str(price)) #Total price Rs.70
+digit_words ={
+    '0':'zero',
+    '1':'one',
+    '2':'two',
+    '3':'three',
+    '4':'four',
+    '5':'five',
+    '6':'six',
+    '7':'seven',
+    '8':'eight',
+    '9':'nine'
+}
+
+num=int(input('Enter a number'))
+num_str=str(num)
+words=''
+for k in num_str:
+    words=words+digit_words[k]+' '
+    
+
+print(num, 'is',words)
