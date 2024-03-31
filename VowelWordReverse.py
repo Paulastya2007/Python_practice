@@ -4,7 +4,7 @@ def vlw(n):
     if n[0] in a:
         return n[::-1]
     else:
-         return n
+        return n
     
 n=input('Enter string\t')
 k=n.split()
